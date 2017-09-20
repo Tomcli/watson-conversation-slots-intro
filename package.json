@@ -20,6 +20,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cf-deployment-tracker-client": "*",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "metrics-tracker-client": "^0.1.9",

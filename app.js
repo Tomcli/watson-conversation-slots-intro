@@ -28,6 +28,7 @@ var bodyParser = require('body-parser'); // parser for post requests
 
 var app = express();
 
+require('cf-deployment-tracker-client').track();
 require('metrics-tracker-client').track();
 
 // Bootstrap application settings
